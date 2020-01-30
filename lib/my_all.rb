@@ -11,6 +11,7 @@ def my_all?(collection)
 
  if
     block_return_values.include?(false)
+    false
  else
     true
  end
